@@ -99,6 +99,5 @@ async function seed() {
   await createPlaylistTrack(workoutPlaylist.id, track14.id);
   await createPlaylistTrack(workoutPlaylist.id, track16.id);
   await createPlaylistTrack(workoutPlaylist.id, track2.id);
-
   console.log("Playlist-track relationships created!");
 }
